@@ -10,6 +10,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 16px;
+    
 }
 
 body {
@@ -49,16 +50,33 @@ main {
     margin-bottom: 10px;
 }
 
-  .hero-image {
-    background-color: #cccccc;
-    height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
+address {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-size: 1rem;
+}
 
-.page-section {
+.card {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: burlywood;
+}
+
+.section {
     margin: 25px 0;
     padding: 10px 0;
     display: flex;
@@ -71,17 +89,14 @@ main {
 
 .calculator {
     background-image: url(./images/calculator.jpg);
-    display: flex;
 }
 
 .game{
     background-image: url(./images/keyboard.jpg);
-    display: flex;
 }
 
 .gameshow {
-    background-image: url(./images/gameover.jpg);
-    display: flex;  
+    background-image: url(./images/gameover.jpg); 
 }
 
 
