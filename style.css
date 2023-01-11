@@ -1,0 +1,92 @@
+* {
+    margin: 1%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(8, 8, 8);
+    background-color: lightblue;
+    line-height: 1.5;
+}
+header {
+    padding: 6px 6px 6px 0;
+    display: flex;
+    background-color: aqua;
+    flex-wrap: wrap;
+}
+
+header .name {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 5px;
+    padding: 0;
+    color: rgb(8, 8, 8);
+    width: auto;
+}
+
+nav {
+    padding: 5px 5px 5px 0;
+    width: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+  .hero-image {
+    background-color: #cccccc;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.page-section {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+
+}
+
+.calculator {
+    background-image: url(./images/calculator.jpg);
+    display: flex;
+}
+
+.game{
+    background-image: url(./images/keyboard.jpg);
+    display: flex;
+}
+
+.gameshow {
+    background-image: url(./images/gameover.jpg);
+    display: flex;  
+}
+
+
+
+
+
+
+
