@@ -1,6 +1,6 @@
 * {
-    margin: 1%;
-    padding: 1%;
+    
+    padding: 5%;
     box-sizing: border-box;
 }
 
@@ -58,6 +58,12 @@ address {
     font-size: 1rem;
 }
 
+img {
+    width: 30%;
+    height: 25%;
+    height: auto;
+}
+
 .card {
     display: flex;
     padding: 10px;
@@ -87,18 +93,23 @@ address {
 
 }
 
-.calculator {
-    background-image: url(./images/calculator.jpg);
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
-.game{
-    background-image: url(./images/keyboard.jpg);
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/keyboard.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-
-.gameshow {
-    background-image: url(./images/gameover.jpg); 
-}
-
 
 
 
